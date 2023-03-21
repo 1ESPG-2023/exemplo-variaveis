@@ -1,6 +1,0 @@
-Qual é a diferença entre "==" e "===" em Javascript?
-Dê um exemplo para ilustrar a diferença.
-
-R: A diferença entre == e === é a seguinte:
-o == é usado para fazer uma comparação entre duas variaveis independente do tipo
-ja o === é mais restrito, ele ira verificar o tipo das variaveis e ira comparar as duas variaveis.
