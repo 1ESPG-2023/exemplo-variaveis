@@ -1,3 +1,0 @@
-Qual é o resultado da expressão 5 + 7 - 3 * 2 / 4 quando usada com document.write() em Javascript?
-
-R: Usando o document.write(5 + 7 - 3 * 2 / 4) ele irá resolver a expressao em ordem das operações matemáticas. Retornando o resultado 6
