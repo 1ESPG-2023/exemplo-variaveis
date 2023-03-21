@@ -1,3 +1,0 @@
-Como verificar se um número é par ou ímpar em Javascript?
-
-R: É possivel verificar se um numero é par ou impar atraves do modulo %, que quando usado retorna o resto de uma divisão, ou seja, se o resultado der 0 o numero é par.
