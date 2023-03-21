@@ -11,9 +11,9 @@ h1elemento.addEventListener("click", function(){
 
 var nome = "pedro" // podem mudar de valor ao decorrer do cod 
 let Nome = "pedro" // pode mudar de valor ao decorrer do cod 
-const noMe = "pedro " // não muda de valor 
+const noMe = "pedro " // não muda de valor  agora
 
-if(nome != ""){
+if(nome != ""){ 
     let nome = enzo 
 }
 
