@@ -1,0 +1,4 @@
+Dado o seguinte código em Javascript:
+var x = 10; let y = 20; const z = 30; if (true) {   var x = 40;   let y = 50;   const z = 60;   console.log(x, y, z); } console.log(x, y, z);Qual será a saída no console e por quê?
+
+R: A saida irá dar um erro, pois a variavel const é imutavel e nao pode ser declarada mais de uma vez no código. const = variavel constante

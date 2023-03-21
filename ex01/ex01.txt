@@ -1,0 +1,9 @@
+1 - Qual a diferença entre declarar uma variável utilizando "var", "let" e "const" em Javascript? Explique com exemplos.
+
+R: a diferença entre esses tipos de variaveis são:
+    var = é um escobo global, pode ser atualizadas e declaradas dentro de um escopo.
+
+    let = é uma variavel que pode ser atualizada porem só pode ser declarada dentro do escopo não podendo ser declarada mais de uma vez.
+
+    const = é uma variavel que não pode ser atualizada e nem declaradas mais de uma vez. são usadas para valores constantes, que não sofrem alteração, como o numero de pi.
+

@@ -1,0 +1,6 @@
+O que significa "hoisting" em Javascript?
+Dê um exemplo para ilustrar.
+
+R: As variaveis em JavaScript são elevadas até o topo do código.
+Move as variaveis para o topo antes da execução.
+Exemplo: alert()
