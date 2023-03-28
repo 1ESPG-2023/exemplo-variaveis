@@ -34,3 +34,36 @@
 
 // //let name = "Ricardo"
 // //const name = "Ricardo"
+
+//Estrutura de decisão IF / Else / Else If
+//Operadores lógicos
+// && AND 
+// || OR
+// ! NOT
+// != NoT / DIFFERENT
+
+let nome = null
+console.log(nome)
+
+// if (nome != "" && nome != undefined) {
+//     console.log("A variável está preenchida")
+// }else if(nome == null){
+//     console.log("A variável é null")
+// }else{
+//     console.log("A variável não está preenchida")
+// }
+
+// Operador ternário ( ? )
+let num1 = 10;
+let num2 = 5;
+
+//Crie uma validação ternária onde resulte no valor de par o impar
+
+let resultado = num1%num2
+console.log(resultado)
+
+if(resultado == 0){
+    console.log("O numero é par")
+}else{
+    console.log("O numero é impar")
+}
