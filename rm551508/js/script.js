@@ -28,3 +28,35 @@ if(nome != ""){
 
 //nome a ser impresso
 console.log(nome) */
+
+// operados Lógicos
+// && and
+// ! negação 
+// || or 
+// ! diferente
+
+
+//operadores relacionais
+// > maior
+//< menor
+// >= maior igual
+// <= menor igual 
+// == igual
+// != diferente 
+
+// let nome = null
+
+// if (nome != "" && nome != undefined) {
+//     console.log("a variavel esta preenchida")
+// }else if(nome == null){
+//     console.log("a variavel é null")
+// }
+
+//operador ternario
+
+let num = 10;
+let num2 = 5;
+
+//crie uma validação ternaria onde resulte em par ou impar
+let resulado = 10%5 == 0  ? "par" : "impar ";
+console.log("o numero é " + resulado)
