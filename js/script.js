@@ -1,3 +1,4 @@
+/*
 //capturando o ID e colocando em uma var
 
 const h1Elemento = document.getElementById("titulo-1")
@@ -24,3 +25,4 @@ if (nome != ""){
 }
 
 console.log(nome)
+*/
