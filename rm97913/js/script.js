@@ -15,15 +15,48 @@
 // })
 
 // h1Elemento.addEventListener("mouseleave", ()=>{
-//     h1Elemento.style.fontSize = "34px"
+//     h1Elemento.style.fontSize = "34px";
 // })
 
 // //DECLARAÇÃO DE VARIAVEIS COM VAR LET E CONS
 
-// var nome = "Pedro"
+// var nome = "Pedro";
 
 // if(nome != ""){
-//     var nome = "Lucas"
+//     var nome = "Lucas";
 // }
 
 // console.log(nome)
+
+//Estrutura de decisão IF / else / else if
+//Operadores lógicos
+// && AND
+// || OR
+// != DIFFERENT
+//
+
+
+
+// let nome = null;
+// console.log(nome);
+
+// if(nome != "" && nome != undefined) {
+//     console.log("A váriável está preenchida!");
+// } 
+// else if(nome==null){
+//     console.log("A váriável é null!");
+// }
+// else{
+//     console.log("A variável não está preenchida!");
+// }
+
+//OPERADOR TERNÁRIO
+
+let num1 = 10;
+let num2 = 5;
+
+
+//Crie um validação ternária onde resulte no valor de PAR ou IMPAR
+
+let resultado = !(10%5) ? "PAR" : "IMPAR";
+console.log("O número que está sendo manipulado é: " + resultado)
