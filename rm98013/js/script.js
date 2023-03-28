@@ -1,25 +1,29 @@
-
-
-//capturando a tag com ID e colocando em uma variável var
+//Capturando a tag com ID e colocando em uma váriavel var
 var h1Elemento = document.getElementById("titulo-1")
 
-//adicionando um listener de Evento
+//Adicionando um Listene de Evento
 h1Elemento.addEventListener("click", function(){
-   
-    alert("Agora sou autonômo!")
-    
+
+    alert("Agora sou autônomo");
+    h1Elemento.textContent = "NOVO TÍTULO!";
+    h1Elemento.style.backgroundColor = "#ff0000"
+
 })
 
-//declaração de variaveis com LET e VAR e CONST
+h1Elemento.addEventListener("mouseover", ()=>{
+    h1Elemento.style.fontSize = "68px"
+})
 
-//const nome = "Pedro"
+h1Elemento.addEventListener("mouseleave", ()=>{
+    h1Elemento.style.fontSize = "34px"
+})
+
+//DECLARAÇÃO DE VARIAVEIS COM VAR LET E CONS
 
 var nome = "Pedro"
 
 if(nome != ""){
-    var nome = "Emanuelle"
+    var nome = "Lucas"
 }
 
-//imprimindo o valor da variavel
-
-console.log();
+console.log(nome)
