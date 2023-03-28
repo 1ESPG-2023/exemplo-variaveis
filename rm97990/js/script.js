@@ -43,3 +43,13 @@ if(nome!="" && nome != undefined){
 else{
     console.log("A variável não está preenchida")
 }
+
+
+//Operador ternário (?)
+
+let num1= 10;
+let num2=5;
+//Crie uma validação ternária, onde resulte no valor de par ou ímpar 
+
+let resultado=!(10%5) ? "Par" :"impar" // ! inverte pois o ? ira retornar como true or false 
+console.log("O núero que está sendo manipulado é: " + resultado)
