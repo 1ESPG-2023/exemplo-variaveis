@@ -29,3 +29,17 @@ var nome = "Mirella"
  console.log(nome)
 
  */
+ // Estrutura de decisão if/else
+    //Operadores lógicos em js: and== && ; or=!! ; not/different ==!
+    //Operadores relacionais: maior, menos, maior igual, menor igual....
+
+let nome = null
+console.log(nome)
+if(nome!="" && nome != undefined){
+    console.log("A váriavel esta preenchida")
+}else if(nome==null){
+    console.log("A variável é null")
+}
+else{
+    console.log("A variável não está preenchida")
+}
