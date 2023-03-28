@@ -59,11 +59,5 @@ let num2 = 5;
 
 //Crie uma validação ternária onde resulte no valor de par o impar
 
-let resultado = num1%num2
-console.log(resultado)
-
-if(resultado == 0){
-    console.log("O numero é par")
-}else{
-    console.log("O numero é impar")
-}
+let resultado = !(num1%num2) ? "PAR" : "IMPAR"
+console.log("O numero que esta sendo manipulado é: "+ resultado)
