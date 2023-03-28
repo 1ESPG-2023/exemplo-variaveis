@@ -1,26 +1,38 @@
+// //Capturando a tag com ID e colocando em uma variável var
+// //const h1Elemento = document.getElementById("titulo-1")
 
+// //Adicionando um Listener de Evento
+// h1Elemento.addEventListener("click", function(){
 
-//Capturando a tag com ID e colocando em uma variável var
-var h1Elemento = document.getElementById("titulo-1")
+//     alert("Agora sou autônomo!")
+//     h1Elemento.textContent = "NOVO TÍTULO";
+//     h1Elemento.style.backgroundColor = "#DA70D6"
 
-//Adicionando um Listener de Evento
-h1Elemento.addEventListener("click", function(){
+// })
 
-    alert("Agora sou autônomo!")
+// h1Elemento.addEventListener("mouseover", ()=>{
 
-})
+//     h1Elemento.style.fontSize = "68px"
 
-//Declaração de variáveis com LET e VAR e CONST
+// })
 
-var nome = "Pedro"
+// h1Elemento.addEventListener("mouseleave", ()=>{
 
-if(nome != ""){
-    let nome = "Emanuelle"
-}
+//     h1Elemento.style.fontSize = "34px"
 
-//Imprimindo o valor da variável
-console.log(nome)
+// })
 
-//let nome = "Pedro"
-//const nome = "Pedro"
+// //Declaração de variáveis com LET e VAR e CONST
+
+// var nome = "Pedro"
+
+// if(nome != ""){
+//     let nome = "Emanuelle"
+// }
+
+// //Imprimindo o valor da variável
+// console.log(nome)
+
+// //let nome = "Pedro"
+// //const nome = "Pedro"
 
