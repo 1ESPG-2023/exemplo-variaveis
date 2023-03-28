@@ -20,3 +20,25 @@
 // var   Nome = "Pedro"
 // let   nome = "Pedro"
 // const noMe = "Pedro" // const nao pode ter seu valor alterado
+
+
+//operadores lógicos
+// && = AND
+//|| = OR
+//! NOT
+// != DIFERENTE
+let nome = "pedro"
+if (nome != "" && nome != undefined){
+        console.log("A variavel nao esta preenchida")
+}else{
+    console.log("A variavel esta preenchida")
+}
+//operador TERNARIO ( ? )
+// 
+//
+let num = 10;
+let num1 = 5;
+//crie uma validação ternaria onde resulte no valor de PAR ou impar 
+let resultado = !(10%5) ? "PAR" : "IMPAR"
+
+console.log("O numero que esta sendo manimulado é : " + resultado)
