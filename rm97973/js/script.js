@@ -31,3 +31,35 @@
 // console.log(nome)
 
 // // let nome = "Pedro"
+
+// estrutura de decisao if / else / else if
+// operadores lógicos
+// && AND
+// || or
+// != NOT/DIFERENTE
+
+// let nome = null
+// console.log(nome)
+
+// if (nome != "" && nome != undefined)  {
+//     console.log("A variavél está preenchida!")
+// }
+// else if(nome == null){
+//     console.log("A variavél é null!")
+// }
+// else{
+//     console.log("A variavél não está preenchida!")
+// }
+
+// Operadores relacionais
+// igual python
+
+// Operador ternário (?), verificar s um numero é par ou impar 
+
+let num1 = 10;
+let num2 = 5;
+
+// crie uma validação ternária onde resulte no valor de PAR ou Impar
+
+let resultado = !(10%5) ? "par" : "impar" ;
+console.log("O número que está sendo manipulado é: " + resultado)
