@@ -1,36 +1,32 @@
+// //Capturando a tag com ID e colocando em uma váriavel var
+// var h1Elemento = document.getElementById("titulo-1")
 
+// //Adicionando um Listene de Evento
+// h1Elemento.addEventListener("click", function(){
 
-//Capturando a tag com ID
-var h1Elemento = document.getElementById("Titulo-1")
+//     alert("Agora sou autônomo");
+//     h1Elemento.textContent = "NOVO TÍTULO!";
+//     h1Elemento.style.backgroundColor = "#ff0000"
 
-//adicionando um Listener de Evento
-h1Elemento.addEventListener("click",function(){
+// })
 
-    alert("Agora sou autonômo")
-    h1Elemento.innerHTML = "Novo Título"; // (.textContent) após o click e alert ele altera o título
-    h1Elemento.style.backgroundColor = "#FF0000
-})
+// h1Elemento.addEventListener("mouseover", ()=>{
+//     h1Elemento.style.fontSize = "68px"
+// })
 
-h1Elemento.addEventListener("mouseover", ()=>(
-    h1Elemento.style.fontSize = "68px"
+// h1Elemento.addEventListener("mouseleave", ()=>{
+//     h1Elemento.style.fontSize = "34px"
+// })
 
-))
+// //DECLARAÇÃO DE VARIAVEIS COM VAR LET E CONS
 
-h1Elemento.addEventListener("mouseleave", ()=>(
-    h1Elemento.style.fontSize = "34px"
-))
-//Declaração de Variaveis com LET e VAR e CONST
+// var nome = "Pedro"
 
-//const nome = "Pedro"
+// if(nome != ""){
+//     var nome = "Lucas"
+// }
 
+// console.log(nome)
 
-var nome = "Pedro"
-
-if(nome != ""){
-    let nome = "Lucas"
-}
-
-
-//imprimindo o valor da variável
-console.log(nome)
-
+nome = "teste"
+var nome
