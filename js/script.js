@@ -26,7 +26,36 @@
 //     var nome = "Lucas"
 // }
 
+//imprimindo valor de variavel
 // console.log(nome)
 
-nome = "teste"
-var nome
+//Estrutura de decisão IF / else/ else if
+//Operadores lógicos
+//&& = and
+//|| = or
+//! = not
+//!= = not equal
+let nome = null
+console.log(nome)
+
+if (nome !="" && nome != undefined) {
+    console.log("A variável está preenchida!")
+}else if(nome == null){
+    console.log("A variável é null")
+}
+else {
+    console.log("A variável não esta preenchida")
+}
+
+
+//Operador Ternário (?)
+
+let num1 = 10;
+let num2 = 5;
+
+//Crie uma validação onde resulte em valor PAR ou IMPAR!
+
+let resultado = !(10%5) ? "PAR" : "IMPAR";
+
+console.log("O número que esta sendo manipulado é : " + resultado)
+
