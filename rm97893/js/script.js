@@ -14,7 +14,7 @@ let Nome = "pedro" // pode mudar de valor ao decorrer do cod
 const noMe = "pedro " // não muda de valor  agora
 
 if(nome != ""){ 
-    let nome = enzo 
+    let nome = murilo
 }
 
 //nome a ser impresso
