@@ -59,5 +59,5 @@ let num2 = 5;
 
 //crie uma validação ternaria onde resulte no valro de par ou impar 
 
-let resultado = 10 % 5 ? "par" : "impar";
+let resultado = !(10 % 5) ? "par" : "impar";
 console.log("o numero que esta sendo manipulado é: " + resultado)
