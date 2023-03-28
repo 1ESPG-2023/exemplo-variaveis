@@ -30,3 +30,33 @@
 
 // //Imprimindo o valor da variável
 // console.log(nome)
+
+//Estrutura de decisão IF / else / else if
+//Operadores lógicos
+// && AND
+// || OR
+// ! NOT
+// != NOT / DIFERENTE
+
+// let nome = null
+// console.log(nome)
+
+// if (nome != "" && nome != undefined) {
+//     console.log("A variável está preenchida!")
+// }else if(nome == null){
+//     console.log("A variável é null !")
+// }
+// else{
+//     console.log("A variável não está preenchida!")
+// }
+
+//OPERADOR TERNÁRIO ( ? )
+
+let num1 = 10;
+let num2 = 5;
+
+//Crie um validação ternária onde resulte no valor de PAR ou IMPAR!
+
+let resultado = !(10%5) ? "PAR" : "IMPAR";
+
+console.log("O nÚmero que está sendo manipulado é : " + resultado)
