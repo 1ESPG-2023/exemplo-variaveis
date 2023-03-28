@@ -1,15 +1,15 @@
-//Capturando tag html com ID e colocando em uma variavel var
-var h1Elemento = document.getElementById("title-1")
+var h1Elemento = document.getElementById("titulo-1")
 
-//adicionando um escutador de evento
-h1Elemento.addEventListener("click", function(){
-    alert("Agora sou autonomo")
+h1Elemento.addEventListener("click", function() {
+    alert("Sou um alerta")
+    h1Elemento.innerHTML = "NOVO TITULO"
+    h1Elemento.style.backgroundColor = "red"
 })
 
-//declaração de variaveis com let, var e const
+h1Elemento.addEventListener("mouseover", ()=> {
+    h1Elemento.style.fontSize = "68px"
+})
 
-var nome = "Vinicius"  //var é mutavel
-
-let nome = "Vinicius" //let não é mutavel
-
-const nome = "Vinicius" //const é uma constante
+h1Elemento.addEventListener("mouseleave", ()=> {
+    h1Elemento.style.fontSize = "34px"
+})
