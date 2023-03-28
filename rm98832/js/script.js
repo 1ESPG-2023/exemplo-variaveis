@@ -21,4 +21,29 @@
 // }
 //  console.log(name)
 
+//estrutura de decisão if/else
+//operadores logicos
+// && and
+// || or
+// ! not
+// != diferente
+// let nome 
+// if(nome = "" || nome == undefined=={} || nome == null) {
+//     console.log("a variavel está vazia")
+// }else{
+//     console.log("a variavel está preenchida")
+// }
+// console.log(nome)
 
+//operadores relacionais
+// > maior
+// < menor
+// igual
+
+// operador ternario
+// ?
+// let num = 10;
+// let num2 = 5;
+// //crie uma validação ternaria, na qual resulte no valor de par ou impar:
+// let resultado = !(10 % 5) ? "PAR" : "IMPAR"
+// console.log("o numero que está sendo manipulado é : " + resultado)
