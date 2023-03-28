@@ -24,7 +24,7 @@
 
 // //Declaração de variáveis com LET e VAR e CONST
 
-// var nome = "Pedro"
+// var nome = "Bianca"
 
 // if(nome != ""){
 //     let nome = "Emanuelle"
@@ -33,6 +33,35 @@
 // //Imprimindo o valor da variável
 // console.log(nome)
 
-// //let nome = "Pedro"
-// //const nome = "Pedro"
+// //let nome = "Bianca"
+// //const nome = "Bianca"
 
+//______________________________________________________________________
+// Estrutura de decisão IF / else / else if
+// Operadores lógicos
+// && AND
+// || OR
+// !  NOT
+// != NOT/DIFERENTE
+
+// let nome = "Bianca";
+
+// if (nome !="" && nome != undefined) {
+//     console.log("A variável está preenchida")
+// } else if (nome == null) {
+//     console.log("A variável é null")
+// } else {
+//     console.log("A variável não está preenchida")
+// }
+
+//______________________________________________________________________
+// OPERADORES TERNÁRIO ( ? )
+
+let num1 = 10;
+let num2 = 5;
+
+//Crie uma validação ternária onde resulte no valor de PAR ou ÍMPAR!
+
+let resultado = !(10 % 5) ? "PAR" : "ÍMPAR";
+// % é o operador módulo, que retorna o resto
+console.log("O número que está sendo manipulado é : " + resultado)
