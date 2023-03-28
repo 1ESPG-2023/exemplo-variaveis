@@ -18,9 +18,19 @@ h1Elemento.addEventListener("mouseleave", ()=>(
 
 //Delcaração de variáveis com LET, VAR e CONST
 
-var nome = "Eric"
-if (nome != ""){
-    let nome = "Rodrigues"
-} 
+/*let nome = null 
+if (nome != "" && nome != undefined){
+    console.log("A variável está preenchida")
+} else if(nome == null)
+console.log("A variável é null")
+else(
+    console.log("A variável não está preenchida")
+)
 
-console.log(nome)
+console.log(nome)*/
+let num1 = 10;
+let num2 = 5;
+
+//crie uma validação ternária onde resulte no valor de PAR OU ÍMPAR
+let resultado = !(10%5) ? "PAR" : "IMPAR";
+console.log("O número que está sendo manipulado é :" + resultado)
