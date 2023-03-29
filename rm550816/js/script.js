@@ -31,10 +31,10 @@ console.log(name)
 
 //Estrutura de decisão IF / else /else if
 //Operadores lógicos
-&& AND
-|| OR
-! NOT
-!= NOT/DIFERENTE
+//&& AND
+//|| OR
+//! NOT
+//!= NOT/DIFERENTE
 
 
 let nome = null
