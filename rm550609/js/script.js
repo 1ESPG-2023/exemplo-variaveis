@@ -54,10 +54,28 @@
 
 // operador ternario (?), veririfcar s eum numero é par ou impar
 
-let num1 = 10;
-let num2 = 5;
+// let num1 = 10;
+// let num2 = 5;
 
 //crie uma validação ternaria onde resulte no valro de par ou impar 
 
-let resultado = !(10 % 5) ? "par" : "impar";
-console.log("o numero que esta sendo manipulado é: " + resultado)
+// let resultado = !(10 % 5) ? "par" : "impar";
+// console.log("o numero que esta sendo manipulado é: " + resultado)
+
+// declarando um array
+// let nome = ["nome 1, nome2, nome3, nome4"]
+// console.log(nomes)
+
+// // apenas um nome no item do array 
+// console.log(nome[1])
+
+// // recuperando elementos da lista atraves da função
+// const itensDeLista = document.getElementsByTagName()
+
+let num1 = [10,20,30]
+let num2 = [40,50,60,70,80]
+let num3 
+
+num3 = (num1, num2)
+
+console.log("valor do array 3" + num3 )
