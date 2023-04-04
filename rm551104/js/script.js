@@ -76,7 +76,6 @@ console.log("O número que está sendo manipulado é "+resultado)*/
 // console.log(nomes[1]) cntrl; pra comentar tudo
 
 //Recuperando elemenstos de lista através da função
-
 //getElementsbyTagName   é tipo a assinatura da função
 //com o mouse no negócio, depois do : é o que ele retorna(?)
 //const itensDeLista=document.getElementsByTagName("li")
@@ -88,3 +87,22 @@ console.log("O número que está sendo manipulado é "+resultado)*/
 // num3=[num1,num2]
 // //apresentando interpolação junto com arrays
 // console.log("Valor do array 3 "+num3) //soma é para adicionar a variável
+
+
+// let num1=[10,20,30]
+// let num2=[40,50,60,70,80]
+// let num3
+// num3=[...num1,...num2]
+// console.log("Valor do array 3 "+num3)//contatenação(?)
+
+const itensDeLista=[...document.getElementsByTagName("li")]//fazer isto poupa algumas declarações
+//const obj1Array=[...itensDeLista]
+
+//console.log(itensDeLista[0].innerHTML)
+//console.log(obj1Array)
+
+itensDeLista.forEach(item=>{ //foreach vai jogando os elementos dentro vai indo->
+  console.log(`ITEM DA LISTA: ${item.textContent}`)//interpolação
+//console.log(itensDeLista[0].textContent)
+})
+
