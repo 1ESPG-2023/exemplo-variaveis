@@ -72,10 +72,25 @@
 // // recuperando elementos da lista atraves da função
 // const itensDeLista = document.getElementsByTagName()
 
-let num1 = [10,20,30]
-let num2 = [40,50,60,70,80]
-let num3 
+// let num1 = [10,20,30]
+// let num2 = [40,50,60,70,80]
+// let num3 
 
-num3 = (num1, num2)
+// num3 = [...num1, ...num2]
 
-console.log("valor do array 3" + num3 )
+// console.log("valor do array 3" + num3 )
+
+// const itensDeLista = document.getElementsByTagName("li")
+// const objArray = [...itensDeLista]
+
+// console.log(itensDeLista)
+// // console.log(objArray)
+
+// função de calback
+
+itemDeLista.forEach(item =>{
+
+    console.log(`itensDeLista :$[item]`)
+    // console.log(itensDeLista[0].textContent)
+}) 
+console.log(itensDeLista)
