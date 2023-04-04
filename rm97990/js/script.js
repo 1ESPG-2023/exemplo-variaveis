@@ -85,14 +85,18 @@ num3=[...num1,...num2]
 console.log("valor da array 3 " + num3)
 */
 //Recuperando elementos de lista través da função getelementbytganame. Dentro do () é oque recebe e fora é oque retorna
-const itensDeLista=[...document.getElementsByTagName("li")]
-
-//const obj1Array=[...itensDeLista]
+/*const itensDeLista=[...document.getElementsByTagName("li")]
 itensDeLista.forEach( item =>{
-//            váriavel
-// Em console.log, utilizamos a crase para inserir o texto como exemplificado abaixo
 console.log(`ITEM DA LISTA: ${item.textContent}`)
-})
+})*/
+
+//Loop For
+const itensDeLista=[...document.getElementsByTagName("li")]
+//Primeiro declaramos o for.
+for (let index = 0; index < itensDeLista.length; index++) {
+    console.log(`Item a lista ${itensDeLista[index].textContent}`)
+    
+}
 
 
 
