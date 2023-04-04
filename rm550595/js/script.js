@@ -103,9 +103,17 @@ const itensdelista =[...document.getElementsByTagName("li")];
 //     //console.log(itensdelista[0].textContent)
 // })
 
+// for (let index = 0; index < array.length; index++) {
+//     console.log(`Itens da lista: ${itensdelista[index.textContent]}`)
 
-for (let index = 0; index < array.length; index++) {
-    console.log(`Itens da lista: ${itensdelista[index.textContent]}`)
+// for (const item of itensdelista) {
+//     console.log(`Itens da lista com ForOf: ${item.textContent}`)
+// }
     
+// }
+
+for (const indice in itensdelista) {
+    console.log(`itens da lista for IN ${itensdelista[indice].textContent}`)
 }
+
 
