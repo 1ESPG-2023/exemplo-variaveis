@@ -73,10 +73,22 @@
     // })
     
 
-const itemsDeLista = [...document.getElementsByTagName("li")]
-//loop for
+// const itemsDeLista = [...document.getElementsByTagName("li")]
+// //loop for
 
-for (let index = 0; index < itemsDeLista.length; index++) {
-    console.log(`Itens de lista: ${itemsDeLista[index].textContent}`)
+// for (let index = 0; index < itemsDeLista.length; index++) {
+//     console.log(`Itens de lista: ${itemsDeLista[index].textContent}`)
     
+// }
+// const itemsDeLista = [...document.getElementsByTagName("li")]
+
+// for (const item of itemsDeLista) {
+//     console.log(`Itens da lista com forOf: ${item.textContent}`)
+// }
+
+const itemsDeLista = [...document.getElementsByTagName("li")]
+//for in
+
+for (const indice in itemsDeLista) {
+    console.log(`ITENS DA LISTA com forIn: ${itemsDeLista[indice].textContent}`)
 }
