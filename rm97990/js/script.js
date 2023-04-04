@@ -91,12 +91,25 @@ console.log(`ITEM DA LISTA: ${item.textContent}`)
 })*/
 
 //Loop For
-const itensDeLista=[...document.getElementsByTagName("li")]
+/*/const itensDeLista=[...document.getElementsByTagName("li")]
 //Primeiro declaramos o for.
 for (let index = 0; index < itensDeLista.length; index++) {
     console.log(`Item a lista ${itensDeLista[index].textContent}`)
+}*/
+
+//LOOP FOR OF
+/*const itensDeLista=[...document.getElementsByTagName("li")]
+for (const item of itensDeLista) {
+    console.log(`Item da lista com forOF ${item.textContent}`)
     
-}
+}*/
+
+//LOOP FOR IN
+const itensDeLista=[...document.getElementsByTagName("li")]
+for (const indice in itensDeLista){
+    console.log(`Itens da Lista com for IN:  ${itensDeLista[indice].textContent}`) 
+ }
+
 
 
 
