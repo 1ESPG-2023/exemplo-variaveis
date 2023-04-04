@@ -63,7 +63,21 @@
 // let resultado = !(10%5) ? "Par" : "Impar" 
 // console.log("O numero que está sendo manipulado é: " + resultado) 
 
-//declarando o array
-let nome = ["nome1", "nome2", "nome3"]
+// //declarando o array
+// let nome = ["Ana", "Pedro", "Caua"]
 
-console.table(nome)
+// console.table(nome)
+
+// //imprimindo apenas um item
+// console.log(nome[1])
+
+//recuperando elementos da lista através da função get.ElementTagName
+//const itemDElista = document.getElementsByTagName("li")
+
+let num1=[10,20,30]
+let num2=[40,50,60,70,80]
+let num3
+
+num3 = [num1, num2]
+//apresentando interpolação junto com arrays
+console.log("Valor da array 3" + num3)
