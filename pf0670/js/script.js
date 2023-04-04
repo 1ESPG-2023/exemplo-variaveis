@@ -84,3 +84,25 @@
 // console.log("Valor do array 3 " + num3) 
 
 
+// //Realizando a junção de rrays com o opoerador SPREAD ( ... )
+// let num1 = [10,20,30]
+// let num2 = [40,50,60,70,80]
+// let num3
+
+// num3 = [...num1,...num2]
+// //Apresentando interpolação junto com arrays
+// console.log("Valor do array 3 " + num3) 
+
+//Recuperando elementos de lista através da função
+//getElementByTagName
+const itemsDeLista = [...document.getElementsByTagName("li")]
+
+// const obj1Array = [...itemsDeLista]
+
+itemsDeLista.forEach( item =>{
+
+    console.log(`ITEM DA LISTA :${item.textContent}`)
+    // console.log(itemsDeLista[0].textContent)
+})
+
+
