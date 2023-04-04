@@ -111,8 +111,16 @@ const obj1Array = [...itemsDeLista]
 console.log(itemsDeLista)
 console.log(obj1Array)
 
+//Loop forEach
 itemsDeLista.forEach( item => {
 
-    console.log(`ITEM DA LISTA :${item}`)
+    console.log(`ITEM DA LISTA :${item.textContent}`)
 
 })
+
+//Loop for
+
+for (let index = 0; index < array.length; index++) {
+    console.log(`Itens de lista: ${itemsDeLista.textContent}`)
+    
+}
