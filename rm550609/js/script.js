@@ -96,8 +96,30 @@
 // console.log(itensDeLista)
 
 // loop de for
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    console.log(`Itens da lista : $itensDeLista[index].textContent}`)
+// for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
+//     console.log(`Itens da lista : $itensDeLista[index].textContent}`)
     
+// }
+
+const itensDeLista = [...document.getElementsByTagName("li")]
+// loop for of
+
+for(const item of itensDeLista) (
+    console.log {`Itens da lista com for of : $(item.textContent)`}
+
+)
+
+for (const key in object) {
+    if (Object.hasOwnProperty.call(object, key)) {
+        const element = object[key];
+        
+    }
 }
+
+
+
+
+
+
+
