@@ -77,14 +77,21 @@
 // console.log("Valor de array 3 " + num3)
 
 // Recuperando elementos de lista através da função getelementbytagname
-const itensDeLista = document.getElementsByTagName("li")
+// const itensDeLista = document.getElementsByTagName("li")
 
-// const objArrays = [...itensDeLista]
+// // const objArrays = [...itensDeLista]
 
-itensDeLista.forEach( item =>{
+// itensDeLista.forEach( item =>{ //loop forEach e spread
 
-    console.log(`ITEM DA LISTA :${item}`)
+//     console.log(`ITEM DA LISTA :${item}`)
 
-})
+// })
 // console.log(objArrays)
 
+const itensDeLista = [...document.getElementsByTagName("li")]
+// Loop for
+
+for (let index = 0; index < itensDeLista.length; index++) {
+    console.log(`Itens da lista : ${itensdeLista[index].textContent}`)
+    
+}
