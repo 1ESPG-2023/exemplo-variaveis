@@ -43,10 +43,19 @@ console.log("O número que está sendo manipulado é :" + resultado)*/
 //recuperando elementos de lista através da função
 //getElementByTagName
 
-// const ItensDeLista = document.getElementsByTagName("li")
-let num1 = [10, 20, 30]
-let num2 = [40, 50, 60, 70, 80]
-let num3 
-num3 = [num1,num2] 
-//apresentando interpolação junto com arrays
-console.log("Valor do Array 3 " + num3)
+ const ItensDeLista = document.getElementsByTagName("li")
+//  const objArray = [...ItensDeLista]
+ItensDeLista.forEach(item =>{
+    console.log(`ITEM DA LISTA : ${item.textContent}`)
+     //console.log(ItensDeLista[0].textContent)
+})
+
+//  console.log(objArray)
+
+//Realizando a junção de arrays com o operador SPREAD (...)
+// let num1 = [10, 20, 30]
+// let num2 = [40, 50, 60, 70, 80]
+// let num3 
+// num3 = [...num1,...num2] 
+// //apresentando interpolação junto com arrays
+// console.log("Valor do Array 3 " + num3)
