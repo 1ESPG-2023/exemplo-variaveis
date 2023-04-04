@@ -81,12 +81,6 @@
 
 //recuperando elementos de lista atraves da função getElementByTagName
 
-const itensdelista =[...document.getElementsByTagName("li")];
-
-itensdelista.forEach( item =>{
-    console.log(`ITEM DA LISTA :${item.textContent}`)
-    //console.log(itensdelista[0].textContent)
-})
 
 // console.log(objtArray)
 
@@ -100,4 +94,18 @@ itensdelista.forEach( item =>{
 
 // num3 = [...num1,...num2]
 // // console.log("valor da array 3 " + num3)
+
+
+const itensdelista =[...document.getElementsByTagName("li")];
+
+// itensdelista.forEach( item =>{
+//     console.log(`ITEM DA LISTA :${item.textContent}`)
+//     //console.log(itensdelista[0].textContent)
+// })
+
+
+for (let index = 0; index < array.length; index++) {
+    console.log(`Itens da lista: ${itensdelista[index.textContent]}`)
+    
+}
 
