@@ -83,10 +83,18 @@
 
 //Recuperando elementos de lista através da função getElementByTagName
 //Assinatura é o nome da função
-const itensDeLista = [...document.getElementsByTagName("li")]
 // const obj1Array = [...itensDeLista]
 
-itensDeLista.forEach(item =>{
-    console.log(`Item da Lista: ${item.textContent}`)    
-})
-//Quando você quiser manipular elementos HTMl em JavaScript, transforme-os em um Array, pois tem mais opções
+// //Loop forEach:
+// itensDeLista.forEach(item =>{
+//     console.log(`Item da Lista: ${item.textContent}`)    
+// })
+// //Quando você quiser manipular elementos HTMl em JavaScript, transforme-os em um Array, pois tem mais opções
+
+//Loop for:
+const itensDeLista = [...document.getElementsByTagName("li")]
+
+for (let index = 0; index < itensDeLista.length; index++) {
+    const element = itensDeLista[index];
+    console.log(`Item da Lista: ${itensDeLista[index].textContent}`)
+}
