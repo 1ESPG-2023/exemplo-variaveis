@@ -31,22 +31,28 @@
 // console.log("Valor do array 3" + num3)
 
 //Realizando a junção de arrays com o operado SPREAD (...)
-let num1 = [10,20,30 ];
-let num2 = [40,50,60,70,80];
-let num3
+// let num1 = [10,20,30 ];
+// let num2 = [40,50,60,70,80];
+// let num3
 
-num3 = [...num1,...num2]
-//Apresentado interpolação junto com arrays
-console.log("Valor do array 3 " + num3)
+// num3 = [...num1,...num2]
+// //Apresentado interpolação junto com arrays
+// console.log("Valor do array 3 " + num3)
 
 // Recuperando elementos de lista através da função
 // getElementByTagName
+// const itensDeLista = [...document.getElementsByTagName("li")]
+
+// //LOOP forEach
+
+// itensDeLista.forEach( item =>{
+//     console.log(`ITEM DA LISTA :${item.textContent}`)
+// })
+
+
 const itensDeLista = [...document.getElementsByTagName("li")]
+//LOOp for
 
-
-// const obj1Array = [...itensDeLista]
-
-itensDeLista.forEach( item =>{
-    console.log(`ITEM DA LISTA :${item.textContent}`)
-})
-// console.log(obj1Array)
+for (let index = 0; index < array.length; index++) {
+    console.log(`Itens da lista : ${itensDeLista[index].textContent}`)    
+}
