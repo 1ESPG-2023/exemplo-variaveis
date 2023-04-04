@@ -80,13 +80,26 @@ console.log(nomes[1])*/
 
 //recuperando elementos e lista através de função
 //getElementsByTagName
-// const itensDeLista = document.getElementsByTagName("li")
 
+//const itensDeLista = document.getElementsByTagName("li")
 // let num1 = [10, 20, 30]
 // let num2 = [40, 50, 60, 70 ,80]
 // let num3
 
-// num3 = [num1,num2]
-// //apresentando interpolação junto com arrays
+// num3 = [...num1,...num2]
+// // //apresentando interpolação junto com arrays
 // console.log("valor do array 3 "  + num3)
+
+const itensDeLista = [...document.getElementsByTagName("li")]
+
+//const objArray = [...itensDeLista]
+
+//console.log(itensDeLista[0].innerHTML)
+//console.log(objArray)
+itensDeLista.forEach( item =>{
+
+    console.log(`ITEM DA LISTA :${item.textContent}`)
+    //console.log(itensDeLista[0].textContent)
+})
+
 
