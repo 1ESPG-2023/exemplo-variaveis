@@ -21,8 +21,8 @@
 // }
 //  console.log(name)
 
-//estrutura de decisão if/else
-//operadores logicos
+// estrutura de decisão if/else
+// operadores logicos
 // && and
 // || or
 // ! not
@@ -35,7 +35,7 @@
 // }
 // console.log(nome)
 
-//operadores relacionais
+// operadores relacionais
 // > maior
 // < menor
 // igual
@@ -48,7 +48,7 @@
 // let resultado = !(10 % 5) ? "PAR" : "IMPAR"
 // console.log("o numero que está sendo manipulado é : " + resultado)
  
-//declarando um array
+// declarando um array
 // let nomes =["matheus","fernando","joao","eric","rodrigo"];
 // console.log(nomes);
 // console.table(nomes);
@@ -56,13 +56,23 @@
 // //imprimir apenas um elemento
 // console.log(nomes[0]);
 
-//recuperando elementos de lista atraves da fução getElementsByTagName
-//const itensDeLista = document.getElementsByTagName("li");
+// let num1 = [10,20,30];
+// let num2 = [40,50,60,70,80];
+// let num3 
 
-let num1 = [10,20,30];
-let num2 = [40,50,60,70,80];
-let num3 
+// num3 = [num1 , num2];
+// //apresentando interpolação junto com arreys
+// console.log("valor de array 3: " + num3)
 
-num3 = [num1 , num2];
-//apresentando interpolação junto com arreys
-console.log("valor de array 3: " + num3)
+// recuperando elementos de lista atraves da fução getElementsByTagName e transformando em array
+// const itensDeLista = document.getElementsByTagName("li");
+// const objArray = [...itensDeLista]
+
+// ou 
+// const itensDeLista = [...document.getElementsByTagName("li")]
+
+// itensDeLista.forEach(item =>{
+//     console.log(`ITEM DA LISTA :${item.textContent}`)
+// })
+
+// // //console.log(objArray)
