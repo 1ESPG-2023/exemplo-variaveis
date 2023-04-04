@@ -73,7 +73,20 @@
 // console.log(itensDeLista[0].textContent)
 // console.log(objArray)
 
+// const itensDeLista = document.getElementsByTagName("li")
+// for (let index = 0; index < itensDeLista.length; index++) {
+//     console.log(`itens da lista : ${itensDeLista[index].textContent}`)
+// }
+
+// const itensDeLista = document.getElementsByTagName("li")
+
+// for(const iten of itensDeLista) {
+//     console.log(`itens da lista com forOf : ${iten.textContent}`)
+// }
+
+//FOR IN
 const itensDeLista = document.getElementsByTagName("li")
-for (let index = 0; index < itensDeLista.length; index++) {
-    console.log(`itens da lista : ${itensDeLista[index].textContent}`)
+
+for(const indice in itensDeLista) {
+    console.log(`itens da lista com forIN ${itensDeLista[indice].textContent}`)
 }
