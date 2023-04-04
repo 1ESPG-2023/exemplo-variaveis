@@ -71,11 +71,22 @@
 //Assinatura é o nome da função
 //const itensDeLista = document.getElementsByTagName("li")
 
+// //Realizando a junção de Arrays com o operador SPREAD(...)
 // let num1 = [10, 20, 30,]
 // let num2 = [40, 50, 60, 70, 80]
 // let num3
 
-// num3 = [num1, num2]
+// num3 = [...num1, ...num2]
 
 // //Apresentando interpolação junto com Arrays:
 // console.log("Valor do Array 3 " + num3)
+
+//Recuperando elementos de lista através da função getElementByTagName
+//Assinatura é o nome da função
+const itensDeLista = [...document.getElementsByTagName("li")]
+// const obj1Array = [...itensDeLista]
+
+itensDeLista.forEach(item =>{
+    console.log(`Item da Lista: ${item.textContent}`)    
+})
+//Quando você quiser manipular elementos HTMl em JavaScript, transforme-os em um Array, pois tem mais opções
