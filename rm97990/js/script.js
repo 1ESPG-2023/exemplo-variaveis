@@ -33,7 +33,7 @@ var nome = "Mirella"
     //Operadores lógicos em js: and== && ; or=!! ; not/different ==!
     //Operadores relacionais: maior, menos, maior igual, menor igual....
 
-let nome = null
+/*let nome = null
 console.log(nome)
 if(nome!="" && nome != undefined){
     console.log("A váriavel esta preenchida")
@@ -53,3 +53,28 @@ let num2=5;
 
 let resultado=!(10%5) ? "Par" :"impar" // ! inverte pois o ? ira retornar como true or false 
 console.log("O núero que está sendo manipulado é: " + resultado)
+*/
+
+//*Arrays:
+//Declarando um Array
+//let nome=["Mirella","Ge","nome3"]
+//           0,      1,    2
+/*console.log(nome[1])
+console.table(nome)
+*/
+//Recuperando elementos de lista través da função getelementbytganame. Dentro do () é oque recebe e fora é oque retorna
+//const itensDeLista=document.getElementsByTagName("li")
+
+/*let num1=[10,20,30]
+let num2=[40,50,60,70,80]
+let num3
+
+num3=[num1, num2]
+//Apresentando interpolação junto com arrays
+console.log("valor da array 3 " + num3)
+*/
+
+
+
+
+
