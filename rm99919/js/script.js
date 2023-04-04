@@ -74,10 +74,31 @@
 //recuperando elementos da lista através da função get.ElementTagName
 //const itemDElista = document.getElementsByTagName("li")
 
-let num1=[10,20,30]
-let num2=[40,50,60,70,80]
-let num3
+// let num1=[10,20,30]
+// let num2=[40,50,60,70,80]
+// let num3
 
-num3 = [num1, num2]
-//apresentando interpolação junto com arrays
-console.log("Valor da array 3" + num3)
+// num3 = [num1, num2]
+// //apresentando interpolação junto com arrays
+// console.log("Valor da array 3" + num3)
+
+// let num1=[10,20,30]
+// let num2=[40,50,60,70,80]
+// let num3
+
+// num3 = [...num1,...num2]
+// // //apresentando interpolação junto com arrays
+//  console.log("Valor da array 3 " + num3)
+
+//recuperando elementos da lista através da função get.ElementTagName
+const itemDElista = [...document.getElementsByTagName("li")]
+//conversão li para array li
+//const objArray = [...itemDElista]
+
+itemDElista.forEach( item =>{
+    console.log(`ITEM DA LISTA :${item.textContent}`)
+
+})
+
+
+//console.log(objArray)
