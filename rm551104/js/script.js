@@ -60,12 +60,31 @@ else{
 }*/
 
 //operador ternário(?)
-let num1=10;
+/*let num1=10;
 let num2=5;
 
 //crie uma validação ternária onde resulte no valor de par ou impar
 let resultado=!(10%5) ? "PAR" : "IMPAR";
-console.log("O número que está sendo manipulado é "+resultado)
+console.log("O número que está sendo manipulado é "+resultado)*/
 
+//ARRAYS- guardar mais de uma informação
+//declarando um array
+// let nomes=["Ana", "Pedro", "Cauã"]
+//  console.log(nomes)
+//  console.table(nomes)
+// //imprimir apenas um item do array
+// console.log(nomes[1]) cntrl; pra comentar tudo
 
- 
+//Recuperando elemenstos de lista através da função
+
+//getElementsbyTagName   é tipo a assinatura da função
+//com o mouse no negócio, depois do : é o que ele retorna(?)
+//const itensDeLista=document.getElementsByTagName("li")
+
+// let num1=[10,20,30]
+// let num2=[40,50,60,70,80]
+// let num3
+
+// num3=[num1,num2]
+// //apresentando interpolação junto com arrays
+// console.log("Valor do array 3 "+num3) //soma é para adicionar a variável
