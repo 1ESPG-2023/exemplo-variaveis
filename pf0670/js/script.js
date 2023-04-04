@@ -106,10 +106,20 @@
 //     // console.log(itemsDeLista[0].textContent)
 // })
 
+// const itemsDeLista = [...document.getElementsByTagName("li")]
+// //Loop for
+// for (let index = 0; index < itemsDeLista.length; index++) {
+//     console.log(`Itens da lista : ${itemsDeLista[index].textContent}`)
+// }
+
+// const itemsDeLista = [...document.getElementsByTagName("li")]
+// //Loop FOR OF
+// for (const item of itemsDeLista) {
+//     console.log(`Itens da lista com ForOf : ${item.textContent}`)
+// }
+
 const itemsDeLista = [...document.getElementsByTagName("li")]
-//Loop for
-for (let index = 0; index < itemsDeLista.length; index++) {
-    console.log(`Itens da lista : ${itemsDeLista[index].textContent}`)
+//FOR IN
+for (const indice in itemsDeLista) {
+    console.log(`Itens da lista con ForIN ${itemsDeLista[indice].textContent}`)
 }
-
-
