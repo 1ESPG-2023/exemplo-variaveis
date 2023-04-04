@@ -27,10 +27,25 @@ const itemsDeLista = [...document.getElementsByTagName("li")]
 
 //const objArray = [...itemsDeLista]
 
-itemsDeLista.forEach( item =>{
+//LOOP forEach
+// itemsDeLista.forEach( item =>{
    
-   console.log(`ITEM DA LISTA :${item.textContent}`)
-   //console.log(itemsDeLista[0].textContent)
-})
+//    console.log(`ITEM DA LISTA :${item.textContent}`)
+//    //console.log(itemsDeLista[0].textContent)
+// })
 
+//LOOP for
+// for (let index = 0; index < itemsDeLista.length; index++){
+//    console.log(`Itens de lista : ${itemsDeLista[index].textContent}`)
+// }
 
+//LOOP FOR of 
+
+// for (const item of itemsDeLista) {
+//    console.log(`Itens de lista com ForOf : ${item.textContent} `)
+// }
+
+//LOOP FOR IN
+for (const indice in itemsDeLista) {
+   console.log(`Itens de lista com ForIn : ${itemsDeLista[indice].textContent}`)
+}
