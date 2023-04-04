@@ -90,6 +90,7 @@ num3 = [num1,num2]
 // [] e , para fazer a junção o array
 
 //Apresentando interpolação junto com arrays
+
 console.log("Valor do array 3" + num3)
 
 //Realizando a junção de arrays com o operador SPREAD (...)
@@ -111,16 +112,29 @@ const obj1Array = [...itemsDeLista]
 console.log(itemsDeLista)
 console.log(obj1Array)
 
-//Loop forEach
+//Loop FOREACH
+
 itemsDeLista.forEach( item => {
 
     console.log(`ITEM DA LISTA :${item.textContent}`)
 
 })
 
-//Loop for
+//Loop FOR
 
 for (let index = 0; index < array.length; index++) {
-    console.log(`Itens de lista: ${itemsDeLista.textContent}`)
+    console.log(`Items de lista: ${itemsDeLista.textContent}`)
     
+}
+
+//Loop FOR OF : retorna o conteúdo
+
+for (const item of itemsDeLista) {
+    console.log(`Items da lista com 'for of': ${item.textContent}`)
+}
+
+//Loop FOR IN : retorna o índice
+
+for (const índice in itemsDeLista) {
+    console.log(`Item da lista com 'for in': ${itemsDeLista[índice].textContent)}`)
 }
