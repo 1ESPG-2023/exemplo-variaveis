@@ -77,6 +77,20 @@
 // let num2 = [40,50,60,70,80]
 // let num3
 
-// num3 = [num1,num2]
-// //Apresentando Interpolação junto com arrays
+// num3 = [...num1,...num2]
+// // //Apresentando Interpolação junto com arrays
 // console.log("Valor do array 3: " + num3)
+
+//Recuperando elementos da lista através de função
+//getElementByTagName
+const itemsDeLista = document.getElementsByTagName("li")
+
+const objArray = [...itemsDeLista]
+
+itemsDeLista.array.forEach( item =>{
+
+    console.log(`ITEM DA LISTA :${item.textContent}`)
+    // console.log(itemsDeLista[0].textContent)
+});
+
+// console.log(objArray)
