@@ -116,3 +116,14 @@ for (let index = 0; index < itensDeLista.length; index++) {
     console.log(`itensDeLista : ${itensDeLista[index].textContent}`);
     
 }
+
+// loop for of
+
+// for (const iterator of itensDeLista) {
+//     console.log(`Itens da lista com ForOf : ${item.textContent}`)
+// }
+
+//  For In, retorna o indice 
+for(const indice in itensDeLista){
+    console.log(`itens da lista com ForIn ${itensDeLista[indice].textContent}`)
+}
