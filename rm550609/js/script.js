@@ -88,9 +88,16 @@
 
 // função de calback
 
-itemDeLista.forEach(item =>{
+// itemDeLista.forEach(item =>{
 
-    console.log(`itensDeLista :$[item]`)
-    // console.log(itensDeLista[0].textContent)
-}) 
-console.log(itensDeLista)
+//     console.log(`itensDeLista :$[item]`)
+//     // console.log(itensDeLista[0].textContent)
+// }) 
+// console.log(itensDeLista)
+
+// loop de for
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    console.log(`Itens da lista : $itensDeLista[index].textContent}`)
+    
+}
