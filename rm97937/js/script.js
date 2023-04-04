@@ -91,10 +91,22 @@
 // })
 // //Quando você quiser manipular elementos HTMl em JavaScript, transforme-os em um Array, pois tem mais opções
 
-//Loop for:
-const itensDeLista = [...document.getElementsByTagName("li")]
+// //Loop for:
+// const itensDeLista = [...document.getElementsByTagName("li")]
 
-for (let index = 0; index < itensDeLista.length; index++) {
-    const element = itensDeLista[index];
-    console.log(`Item da Lista: ${itensDeLista[index].textContent}`)
+// for (let index = 0; index < itensDeLista.length; index++) {
+//     const element = itensDeLista[index];
+//     console.log(`Item da Lista: ${itensDeLista[index].textContent}`)
+// }
+
+// //Loop for of:
+// const itensDeLista = [...document.getElementsByTagName("li")]
+// for (const item of itensDeLista) {
+//     console.log(`Item da Lista: ${item.textContent}`)
+// }
+
+//Loop for in:
+const itensDeLista = [...document.getElementsByTagName("li")]
+for (const indice in itensDeLista) {
+    console.log(`Itens da Lista: ${itensDeLista[indice].textContent}`)
 }
