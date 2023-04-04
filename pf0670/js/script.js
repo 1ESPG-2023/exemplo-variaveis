@@ -15,8 +15,10 @@ const itemsDeLista = document.getElementsByTagName("li")
 
 //const obj1Array = [...itemsDeLista]
 
-itemsDeLista.forEach(item =>{
-    console.log("`item da lista:${item}`")
+itemsDeLista.forEach(element => {
+    
+});( item =>{
+    console.log(`item da lista :${item.textContent}`)
     //console.log(itemsDeLista[0].innerHTML)
 })
 
