@@ -51,9 +51,40 @@
 
 
 //operador ternário
-let null1 = 10;
-let null2 = 5;
+//let null1 = 10;
+//let null2 = 5;
 
 //crie uma validação ternária onde resulte emo valor de PAR ou IMPAR
-let resultado = !(10%5) ? "PAR" : "IMPAR";
-console.log("o número que está sendo manipulado é: " + resultado)
+//let resultado = !(10%5) ? "PAR" : "IMPAR";
+//console.log("o número que está sendo manipulado é: " + resultado)
+
+// let nome = ["Geovanna", "Mirella", "Lana", "Fernanda"]
+// 			//   0          1         2         3
+// console.log(nome)
+// console.table(nome)
+
+// Imprimir apenas um item do ARRAY
+// console.log(nome[2]) // Vai aparecer Lana 
+
+
+// let num1 = [10,20,30]
+// let num2 = [40,50,60]
+
+// let num3 
+// num3= [...num1, ...num2]
+
+// // // Apresentando interpolação junto com arrays
+// console.log("Valor de array 3 " + num3)
+
+// Recuperando elementos de lista através da função getelementbytagname
+const itensDeLista = document.getElementsByTagName("li")
+
+// const objArrays = [...itensDeLista]
+
+itensDeLista.forEach( item =>{
+
+    console.log(`ITEM DA LISTA :${item}`)
+
+})
+// console.log(objArrays)
+
