@@ -12,14 +12,14 @@ h1Elemento.addEventListener("click", function(){
 
 // declaration of variables w/ LET, VAR and CONST
 
-var nome  = "Cova"
+// var nome  = "Cova"
 
 // if(nome != "") {
 //     var nome = "Emanuelle"
 // }
 
 //printing the variable value
-console.log(nome)
+// console.log(nome)
 
 
 
@@ -43,8 +43,11 @@ const itensDeLista = [...document.getElementsByTagName("li")]
 // console.log(itensDeLista)
 // console.log(obj1Array)
 
-itensDeLista.forEach(item => {
-    console.log(`ITEM DA LISTA: ${item.textContent}`)
-})
+// itensDeLista.forEach(item => {
+//     console.log(`ITEM DA LISTA: ${item.textContent}`)
+// })
 
-console.log(itensDeLista[0].innerHTML)
+for (const item of itensDeLista) {
+    console.log(`itens da lista: ${item.textContent}`)
+}
+
