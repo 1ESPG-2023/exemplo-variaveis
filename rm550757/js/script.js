@@ -42,8 +42,8 @@
 // ! NOT
 // != NoT / DIFFERENT
 
-let nome = null
-console.log(nome)
+//let nome = null
+//console.log(nome)
 
 // if (nome != "" && nome != undefined) {
 //     console.log("A variável está preenchida")
@@ -54,10 +54,31 @@ console.log(nome)
 // }
 
 // Operador ternário ( ? )
-let num1 = 10;
-let num2 = 5;
+//let num1 = 10;
+//let num2 = 5;
 
 //Crie uma validação ternária onde resulte no valor de par o impar
 
-let resultado = !(num1%num2) ? "PAR" : "IMPAR"
-console.log("O numero que esta sendo manipulado é: "+ resultado)
+//let resultado = !(num1%num2) ? "PAR" : "IMPAR"
+//console.log("O numero que esta sendo manipulado é: "+ resultado)
+
+//Declarando um array
+// let nomes = ["Ana", "Pedro", "Cauã"]
+
+// //console.log(nomes)
+// console.table(nomes)
+
+// //imprimir apenas um item do arey
+// console.log(nomes[0])
+
+//Recuperando elementos de listas através da função
+//getElemetTagName
+//const itensDeLista = document.getElementsByTagName("li")
+
+let num1 = [10,20,30]
+let num2 = [40,50,60,70,80]
+let num3
+
+num3 = [num1,num2]
+//Apresentando interpolação junto com arrays
+console.log("Valor do array 3: " + num3)
