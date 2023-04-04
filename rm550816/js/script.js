@@ -60,23 +60,25 @@
 // console.log("O número que está sendo manipulado: " + resultado)
 
 
-////Declarando um array
-//let nomes = ["Rodrigo", "Jão", "Fernando", "Matheus", "Eric"];
-//console.log(nomes);
-//console.table(nomes);
+// //Declarando um array
+// let nomes = ["Rodrigo", "Jão", "Fernando", "Matheus", "Eric"];
+// console.log(nomes);
+// console.table(nomes);
 
-//Imprimir apenas um item do array
-//console.log=([1])
+// //Imprimir apenas um item do array
+// console.log=([1])
 
-////Recuperando elementos de lista através da função
-////getElementByTagName
-//const ItemsDelista = document.getElementsByTagName("li")
+// //Recuperando elementos de lista através da função
+// //getElementByTagName
+const ItemsDelista = [...document.getElementsByTagName("li")]
 
-let num1 = [10, 20, 30];
-let num2 = [40, 50, 60, 70, 80];
-let num3
+//const objArray = [...ItemsDelista]
 
-num3 = [num1 , num2]
+//console.log(ItemsDelista[0].innerHTML)
+//console.log(objArray)
 
-//Apresentando Iterpolação junto com arrays
-console.log("Valor do array 3 " + num3)
+ItemsDelista.forEach(item =>{
+   console.log(`ITEM DA LISTA : ${item.textContent}`)
+
+})
+
