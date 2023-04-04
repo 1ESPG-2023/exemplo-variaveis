@@ -81,13 +81,20 @@
 
 //recuperando elementos de lista atraves da função getElementByTagName
 
-// const itensdelista = document.getElementsByTagName("li");
+const itensdelista = document.getElementsByTagName("li");
+
+const objtArray = [...itensdelista]
+console.log(itensdelista)
+console.log(objtArray)
+
+
 // itensdelista.
 
-let num1 = [10, 20, 30]
-let num2 = [40,50,60,70,80]
-let num3
+//declarando arrays com o valor SPREAD (...)
+// let num1 = [10, 20, 30]
+// let num2 = [40,50,60,70,80]
+// let num3
 
-num3 = [num1, num2]
-console.log("valor da array 3 " + num3)
+// num3 = [...num1,...num2]
+// // console.log("valor da array 3 " + num3)
 
