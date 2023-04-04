@@ -1,52 +1,20 @@
- //Capturando a tag com ID e colocando em uma variável var
- /* var h1Elemento = document.getElementById("titulo-1")
+// //DECLARANDO UM ARRAY
+// let nome = ["Ana", "Pedro", "Caua", "Bia"]
 
- //Adicionando um Listener de Evento
- h1Elemento.addEventListener("click",function(){
-     //alert("Agora sou autonômo!")
-     //h1Elemento.innerHTML = "NOVO TÍTULO!";
-     //h1Elemento.style.backgroundColor = "#ff0000"
- })
+// console.log(nome)
+// console.table(nome)
 
- h1Elemento.addEventListener("mouseover", ()=>{
-    h1Elemento.style.fontSize = "68px"
- })
+// // DECLARANDO APENAS UM ITEM DO ARRAY
+// console.log(nome[1])
 
- h1Elemento.addEventListener("mouseleave", ()=>{
-    h1Elemento.style.fontSize = "34px"
- })
+//RECUPERANDO ELEMENTOS DE LISTA ATRAVÉS DA FUNÇÃO 
+//getElementByTagName
+//const itemsDeLista = document.getElementsByTagName("li");
 
- //Declaração de variáveis com LET e VAR e CONST
+// let num1 = [10,20,30]
+// let num2 = [40,50,60,70,80]
+// let num3 
 
- const nome = "Pedro"
-
- var nome = "Pedro"
-
- if(nome != ""){
-    var nome = "Emanuelle"
- } */
-
- //Imprimindo o valor da variável
- //console.log(nome)
-
- let nome = null
-  
- if(nome != "" && nome != undefined) {
-    console.log("A variavel está preenchida")
- } else if(nome == null) {
-    console.log("A variavel é null")
- }
- else {
-    console.log("A variavel não está preenchida")
- }
-
- //OPERADOR TERNÁRIO (?)
-
- let num1 = 10;
- let num2 = 5;
-
- //crie uma validação ternaria onde resulte no valor de par ou impar
-
- let resultado = !(10%5) ?  "PAR" : "IMPAR";
-
- console.log("O número que está sendo manipulado é :" + resultado)
+// num3 = [num1,num2]
+// //APRESENTANDO INTERPOLAÇÃO JUNTO COM ARRAYS
+// console.log("Valor do array 3 " + num3)
