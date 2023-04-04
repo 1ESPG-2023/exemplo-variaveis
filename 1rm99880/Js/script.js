@@ -22,10 +22,10 @@
 //getElementByTagName
 //const itensDeLista = document.getElementsByTagName("li")
 
-let num1 = [10,20,30 ];
-let num2 = [40,50,60,70,80];
-let num3
+// let num1 = [10,20,30 ];
+// let num2 = [40,50,60,70,80];
+// let num3
 
-num3 = [num1,num2]
-//Apresentado interpolação junto com arrays
-console.log("Valor do array 3" + num3)
+// num3 = [num1,num2]
+// //Apresentado interpolação junto com arrays
+// console.log("Valor do array 3" + num3)
