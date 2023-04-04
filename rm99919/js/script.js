@@ -90,15 +90,30 @@
 // // //apresentando interpolação junto com arrays
 //  console.log("Valor da array 3 " + num3)
 
-//recuperando elementos da lista através da função get.ElementTagName
-const itemDElista = [...document.getElementsByTagName("li")]
-//conversão li para array li
-//const objArray = [...itemDElista]
+// //recuperando elementos da lista através da função get.ElementTagName
+// const itemDElista = [...document.getElementsByTagName("li")]
+// //conversão li para array li
+// //const objArray = [...itemDElista]
 
-itemDElista.forEach( item =>{
-    console.log(`ITEM DA LISTA :${item.textContent}`)
+// itemDElista.forEach( item =>{
+//     console.log(`ITEM DA LISTA :${item.textContent}`)
 
-})
+// })
+// //console.log(objArray)
 
+//loop for
+ const itemDElista = [...document.getElementsByTagName("li")]
+// // for (let index = 0; index < itemDElista.length; index++) {
+// //     console.log(`ITENS DA LISTA :${itemDElista[index].textcontent}`)
+    
+// // }
 
-//console.log(objArray)
+//For OF
+// for(const item of itemDElista){
+//     console.log(`Itens da lista com forOf :${item.textContent}`)
+// }
+
+//for in
+for(const indice in itemDElista){
+    console.log(`Itens da lista :${itemDElista[indice].textContent}`)
+}
