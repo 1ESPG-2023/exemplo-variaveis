@@ -113,6 +113,9 @@ console.log("O número que está sendo manipulado é "+resultado)*/
 //   console.log(`Itens da lista: ${itensDeLista[index].textContent}`)
 // }
 
+// const itensDeLista=[...document.getElementsByTagName("li")]
+// for (const item of itensDeLista) {  //pega do itensDeLista e poe no item
+//  console.log(`Itens da lista com for of: ${item.textContent}`)
 
 //FOR IN
 const itensDeLista=[...document.getElementsByTagName("li")]
