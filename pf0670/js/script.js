@@ -95,14 +95,21 @@
 
 //Recuperando elementos de lista através da função
 //getElementByTagName
-const itemsDeLista = [...document.getElementsByTagName("li")]
+// const itemsDeLista = [...document.getElementsByTagName("li")]
 
 // const obj1Array = [...itemsDeLista]
 
-itemsDeLista.forEach( item =>{
+//LOOP forEach
+// itemsDeLista.forEach( item =>{
 
-    console.log(`ITEM DA LISTA :${item.textContent}`)
-    // console.log(itemsDeLista[0].textContent)
-})
+//     console.log(`ITEM DA LISTA :${item.textContent}`)
+//     // console.log(itemsDeLista[0].textContent)
+// })
+
+const itemsDeLista = [...document.getElementsByTagName("li")]
+//Loop for
+for (let index = 0; index < itemsDeLista.length; index++) {
+    console.log(`Itens da lista : ${itemsDeLista[index].textContent}`)
+}
 
 
