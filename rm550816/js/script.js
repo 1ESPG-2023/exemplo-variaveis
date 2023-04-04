@@ -96,7 +96,7 @@ const ItemsDelista = [...document.getElementsByTagName("li")]
 // }
 
 //LOOP for in
-for (const key in object) {
+for (const indice in ItemsDelista) {
       console.log(`Itens de lista com Forin ${ItemsDelista[indice].textContent}`)
    
 }
