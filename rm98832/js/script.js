@@ -69,10 +69,26 @@
 // const objArray = [...itensDeLista]
 
 // ou 
-// const itensDeLista = [...document.getElementsByTagName("li")]
+const itensDeLista = [...document.getElementsByTagName("li")]
 
 // itensDeLista.forEach(item =>{
 //     console.log(`ITEM DA LISTA :${item.textContent}`)
 // })
 
-// // //console.log(objArray)
+//console.log(objArray)
+
+//loop for
+// for (let index = 0; index < itensDeLista.length; index++) {
+//     console.log(`item da lista : ${itensDeLista[index].textContent}`)
+// }
+
+//loop forof
+for (const item of itensDeLista) {
+    console.log(`items da lista com forof : ${item.textContent}`)
+}
+//loop forin
+for (const indice in itensDeLista) {
+    {
+     console.log(`itens de lista com forin ${itensDeLista[indice].textContent}`)
+    }
+}
