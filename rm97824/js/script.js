@@ -55,10 +55,21 @@
 //getElemetByTagName
 //const itemsDeLista = document.getElementsByTagName("li")
 
-let num1 = [10, 20, 30]
-let num2 = [40, 50, 60, 70, 80]
-let num3 
+// let num1 = [10, 20, 30]
+// let num2 = [40, 50, 60, 70, 80]
+// let num3 
 
-num3 = [num1, num2]
-//apresentando interpolação junto com arrays
-console.log("Valor do array 3: " + num3)
+// num3 = [...num1, ...num2]
+// //apresentando interpolação junto com arrays
+// console.log("Valor do array 3: " + num3)
+
+//Recuperando elementos de lista através da função
+//getElemetByTagName
+const itemsDeLista = [...document.getElementsByTagName("li")]
+
+// const obj1Array = [...itemsDeLista]
+
+itemsDeLista.forEach( item =>{
+    console.log(`ITEM DA LISTA :${item.textContent}`)
+})
+//onsole.log(itemsDeLista[0].textContent)
