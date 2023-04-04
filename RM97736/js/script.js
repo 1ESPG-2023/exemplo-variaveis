@@ -88,10 +88,24 @@
 // })
 // console.log(objArrays)
 
-const itensDeLista = [...document.getElementsByTagName("li")]
-// Loop for
+// const itensDeLista = [...document.getElementsByTagName("li")]
+// // Loop for
 
-for (let index = 0; index < itensDeLista.length; index++) {
-    console.log(`Itens da lista : ${itensdeLista[index].textContent}`)
+// for (let index = 0; index < itensDeLista.length; index++) {
+//     console.log(`Itens da lista : ${itensdeLista[index].textContent}`)
     
+// }
+
+// const itensDeLista = [...document.getElementsByTagName("li")]
+// //loop for of
+
+// for (const item of itensDeLista){
+//     console.log(`Itens da lista : ${item.textContent}`)
+// }
+
+
+const itensDeLista = [...document.getElementsByTagName("li")]
+// FOR IN
+for (const iindice in itensDeLista){
+    console.log(`Itens da lista com ForIn : ${itensDeLista[índice].textContent}`)
 }
