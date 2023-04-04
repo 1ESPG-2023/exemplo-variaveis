@@ -102,13 +102,23 @@
 //Recuperando elementos de lista através da função
 // getElementByTagName
 
-const itemsDeLista = [...document.getElementsByTagName("li")]
+//const itemsDeLista = [...document.getElementsByTagName("li")]
 
 //const objArray =  [...itemsDeLista]
-itemsDeLista.forEach(item =>{
-    
-console.log(`item da lista :${item.textContent}`)
 
-})
+// Loop foreach
+// itemsDeLista.forEach(item =>{
+    
+// console.log(`item da lista :${item.textContent}`)
+
+// })
 //console.log(itemsDeLista[0].textContent)
 //console.log(objArray)
+
+
+const itemsDeLista = [...document.getElementsByTagName("li")]
+//Loop for
+for (let index = 0; index < itemsDeLista.length; index++) {
+
+    console.log(`itens da lista: ${itemsDeLista[index].textContent}`)
+}
