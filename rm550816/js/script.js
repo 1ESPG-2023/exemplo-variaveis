@@ -77,8 +77,16 @@ const ItemsDelista = [...document.getElementsByTagName("li")]
 //console.log(ItemsDelista[0].innerHTML)
 //console.log(objArray)
 
-ItemsDelista.forEach(item =>{
-   console.log(`ITEM DA LISTA : ${item.textContent}`)
+// ItemsDelista.forEach(item =>{
+//    console.log(`ITEM DA LISTA : ${item.textContent}`)
 
-})
+// })
+
+//LOOP forEach
+
+for (let index = 0; index < array.length; index++) {
+   console.log(`Itens da Lista: ${ItemsDelista[index].textContent}`)
+   
+}
+
 
