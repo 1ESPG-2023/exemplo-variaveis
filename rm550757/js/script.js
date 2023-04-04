@@ -75,10 +75,20 @@
 //getElemetTagName
 //const itensDeLista = document.getElementsByTagName("li")
 
-let num1 = [10,20,30]
-let num2 = [40,50,60,70,80]
-let num3
+//Realizando a junção de arrays com o oerador SPREAD ( ... )
+// let num1 = [10,20,30]
+// let num2 = [40,50,60,70,80]
+// let num3
 
-num3 = [num1,num2]
-//Apresentando interpolação junto com arrays
-console.log("Valor do array 3: " + num3)
+// num3 = [...num1,...num2]
+// //Apresentando interpolação junto com arrays
+// console.log("Valor do array 3: " + num3)
+const itensDeLista = [...document.getElementsByTagName("li")]
+
+// const obj1Array = [...itensDeLista]
+
+itensDeLista.forEach( item =>{
+
+    console.log(`Item da lista : ${item.textContent}`)
+    //console.log(itensDeLista[0].textContent)
+})
