@@ -95,7 +95,7 @@
 
 //Recuperando elemento de lista através da função
 //getElementByTagName
-// const itensLista = [...document.getElementsByTagName("li")]
+const itensLista = [...document.getElementsByTagName("li")]
 
 //const objArray = [...itensLista]
 
@@ -106,3 +106,16 @@
     //console.log(itensLista[0].textContent)
 // })
 
+//Loop for
+for(let index = 0; index < itensLista.lenght; index++){
+    console.log(`Itens da lista: ${itensLista[index].textContent}`)
+}
+
+
+for (const item of itensLista){
+    console.log(`Itens da lista com ForOF: $(item.textContent}`)
+}
+
+for (const indice in itensLista){
+    console.log(`Itens da lista com ForIN ${itensLista[indice].textContent}`)
+}
