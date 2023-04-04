@@ -59,8 +59,9 @@ console.log("O número que está sendo manipulado é :" + resultado)*/
 // num3 = [...num1,...num2] 
 // //apresentando interpolação junto com arrays
 // console.log("Valor do Array 3 " + num3)
+//console.log(`ITEM DA LISTA com for of : ${item.textContent}`)
 const ItensDeLista = [...document.getElementsByTagName("li")]
-//loop for
-for (let index = 0; index < Array.length; index++){
-  console.log(`Itens da lista : ${ItensDeLista[index].textContent}`)
+//loop for OF
+for (const indice in ItensDeLista){
+    console.log(`itens da lista com for in ${ItensDeLista[indice].textContent}`)
 } 
