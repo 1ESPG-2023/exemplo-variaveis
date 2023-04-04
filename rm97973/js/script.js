@@ -56,10 +56,21 @@
 
 // Operador ternário (?), verificar s um numero é par ou impar 
 
-let num1 = 10;
-let num2 = 5;
+// let num1 = 10;
+// let num2 = 5;
 
-// crie uma validação ternária onde resulte no valor de PAR ou Impar
+// // crie uma validação ternária onde resulte no valor de PAR ou Impar
 
-let resultado = !(10%5) ? "par" : "impar" ;
-console.log("O número que está sendo manipulado é: " + resultado)
+// let resultado = !(10%5) ? "par" : "impar" ;
+// console.log("O número que está sendo manipulado é: " + resultado)
+
+// guardar mais de uma informação dentro de um array 
+// // qtds de posições em um array [0,1,2,3] = 4 arrays * começa sempre no 0
+//  let nome = ["nome1","nome2","nome3","nome4"];
+
+//  nome [2]
+
+// declarando um array
+let nomes = ["nome1","nome2","nome3"];
+
+console.log(nomes)
