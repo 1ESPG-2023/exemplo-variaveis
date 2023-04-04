@@ -84,9 +84,20 @@ const ItemsDelista = [...document.getElementsByTagName("li")]
 
 //LOOP forEach
 
-for (let index = 0; index < array.length; index++) {
-   console.log(`Itens da Lista: ${ItemsDelista[index].textContent}`)
+// for (let index = 0; index < array.length; index++) {
+//    console.log(`Itens da Lista: ${ItemsDelista[index].textContent}`)
+   
+// }
+
+//LOOP for of
+// for (const item of ItemsDelista) {
+//    console.log(`Itens da Lista com ForOF: ${item.textContent}`)
+   
+// }
+
+//LOOP for in
+for (const key in object) {
+      console.log(`Itens de lista com Forin ${ItemsDelista[indice].textContent}`)
    
 }
-
 
