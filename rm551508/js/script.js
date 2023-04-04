@@ -98,9 +98,22 @@ console.log(nome) */
 
 //loop for
 
-const itemsDeLista = document.getElementsByTagName("li")
+// const itemsDeLista = document.getElementsByTagName("li")
 
-for (let index = 0; index < array.itemsDeLista; index++) {
-    console.log(`Iten da lista: ${itemsDeLista[index].textContent}`)
+// for (let index = 0; index < array.itemsDeLista; index++) {
+//     console.log(`Iten da lista: ${itemsDeLista[index].textContent}`)
     
+// }
+
+
+//for of
+// const itemsDeLista = document.getElementsByTagName("li")
+// for (const item of itemsDeLista ) {
+//     console.log(`Item de lista com forOf${item.textContent}`)
+// }
+
+
+//for in
+for (const indice in itemsDeLista) {
+   console.log(`Itens de lista ${itemsDeLista[indice].textContent}`)
 }
