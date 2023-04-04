@@ -116,9 +116,25 @@
 //console.log(objArray)
 
 
-const itemsDeLista = [...document.getElementsByTagName("li")]
-//Loop for
-for (let index = 0; index < itemsDeLista.length; index++) {
+// const itemsDeLista = [...document.getElementsByTagName("li")]
+// //Loop for
+// for (let index = 0; index < itemsDeLista.length; index++) {
 
-    console.log(`itens da lista: ${itemsDeLista[index].textContent}`)
+//     console.log(`itens da lista: ${itemsDeLista[index].textContent}`)
+// }
+
+
+// const itemsDeLista = [...document.getElementsByTagName("li")]
+// //Loop fOR OF
+
+// for (const item of itemsDeLista){
+
+//     console.log(`items da lista com ForOf: ${item.textContent}`)
+// }
+
+const itemsDeLista = [...document.getElementsByTagName("li")]
+
+//For IN
+for (const indice in itemsDeLista) {
+    console.log(`itens da lista com for in ${itemsDeLista[indice].textContent}`)
 }
