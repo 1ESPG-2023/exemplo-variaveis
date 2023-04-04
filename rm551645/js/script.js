@@ -1,42 +1,42 @@
-// //Capturando a tag com ID e colocando em uma variável var
-// //const h1Elemento = document.getElementById("titulo-1")
+//Capturando a tag com ID e colocando em uma variável var
+//const h1Elemento = document.getElementById("titulo-1")
 
-// //Adicionando um Listener de Evento
-// h1Elemento.addEventListener("click", function(){
+//Adicionando um Listener de Evento
+h1Elemento.addEventListener("click", function(){
 
-//     alert("Agora sou autônomo!")
-//     h1Elemento.textContent = "NOVO TÍTULO";
-//     h1Elemento.style.backgroundColor = "#DA70D6"
+    alert("Agora sou autônomo!")
+    h1Elemento.textContent = "NOVO TÍTULO";
+    h1Elemento.style.backgroundColor = "#DA70D6"
 
-// })
+})
 
-// h1Elemento.addEventListener("mouseover", ()=>{
+h1Elemento.addEventListener("mouseover", ()=>{
 
-//     h1Elemento.style.fontSize = "68px"
+    h1Elemento.style.fontSize = "68px"
 
-// })
+})
 
-// h1Elemento.addEventListener("mouseleave", ()=>{
+h1Elemento.addEventListener("mouseleave", ()=>{
 
-//     h1Elemento.style.fontSize = "34px"
+    h1Elemento.style.fontSize = "34px"
 
-// })
+})
 
-// //Declaração de variáveis com LET e VAR e CONST
+//Declaração de variáveis com LET e VAR e CONST
 
-// var nome = "Bianca"
+var nome = "Bianca"
 
-// if(nome != ""){
-//     let nome = "Emanuelle"
-// }
+if(nome != ""){
+    let nome = "Emanuelle"
+}
 
-// //Imprimindo o valor da variável
-// console.log(nome)
+//Imprimindo o valor da variável
+console.log(nome)
 
-// //let nome = "Bianca"
-// //const nome = "Bianca"
+//let nome = "Bianca"
+//const nome = "Bianca"
 
-//______________________________________________________________________
+//______________________________________________________________________31/03/2023
 // Estrutura de decisão IF / else / else if
 // Operadores lógicos
 // && AND
@@ -65,3 +65,54 @@ let num2 = 5;
 let resultado = !(10 % 5) ? "PAR" : "ÍMPAR";
 // % é o operador módulo, que retorna o resto
 console.log("O número que está sendo manipulado é : " + resultado)
+
+//______________________________________________________________________04/04/2023
+//DECLARANDO UM ARRAY
+
+let nome = ["nome 1", "nome 2", "nome 3"]
+
+console.log(nomes)
+console.table(nomes)
+
+//IMPRIMIR APENAS UM NOME DO ARRAY
+
+console.log(nomes[2])
+
+//Recuprando elementos de lista através da função
+//getElementByTagName
+const itemsDeLista = document.getElementsByTagName("li")
+
+let num1 = [10,20,30]
+let num2 = [40,50,60,70,80]
+let num3
+
+num3 = [num1,num2]
+// [] e , para fazer a junção o array
+
+//Apresentando interpolação junto com arrays
+console.log("Valor do array 3" + num3)
+
+//Realizando a junção de arrays com o operador SPREAD (...)
+let num1 = [10,20,30]
+let num2 = [40,50,60,70,80]
+let num3
+
+num3 = [...num1,...num2]
+
+//Apresentando interpolação junto com arrays
+console.log("Valor do array 3" + num3)
+
+//Recuprando elementos de lista através da função
+//getElementByTagName
+const itemsDeLista = document.getElementsByTagName("li")
+
+const obj1Array = [...itemsDeLista]
+
+console.log(itemsDeLista)
+console.log(obj1Array)
+
+itemsDeLista.forEach( item => {
+
+    console.log(`ITEM DA LISTA :${item}`)
+
+})
