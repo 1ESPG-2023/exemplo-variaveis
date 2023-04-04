@@ -97,13 +97,20 @@
 
 //recuperando elementos de lista através da função
 //getElementByTagName
-const itensDeLista = [...document.getElementsByTagName("li")]
+// const itensDeLista = [...document.getElementsByTagName("li")]
 
 //const obj1Array = [...itensDeLista]
 
-itensDeLista.forEach( item =>{
+// itensDeLista.forEach( item =>{
  
-    console.log(`ITEM DA LISTA :${item.textContent}`)
-    //console.log(itensDeLista[0].textContent)
-})
+//     console.log(`ITEM DA LISTA :${item.textContent}`)
+//     //console.log(itensDeLista[0].textContent)
+// })
 
+const itensDeLista = [...document.getElementsByTagName("li")]
+//Lop for
+
+for (let index = 0; index < itensDeLista.length; index++) {
+    console.log(`Itens da lista : ${itensDeLista[index].textContent}`)
+    
+}
