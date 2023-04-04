@@ -82,14 +82,18 @@ console.log(nomes[1])
 // função que pega uma coleção de elementos
 
 // recuperando elementos de lista através da função gitelementbytagname
-// const itensDeLista = document.getElementsByTagName("li")
+const itensDeLista = document.getElementsByTagName("li")
 
+// realizando a junção co o operador spread (...)
+// prestenção nesses 3 pontinhos aqui 
 let num1 = [10,20,30]
 let num2 = [40,50,60,70,80]
 let num3 
 
-num3 = [num1,num2]
+num3 = [...num1,...num2]
 
 // apresentando interpolação junto com arrays
 
 console.log("Valor do array 3 " + num3)
+
+const obj1array = [...itensDeLista]
