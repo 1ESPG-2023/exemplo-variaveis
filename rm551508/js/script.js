@@ -54,9 +54,34 @@ console.log(nome) */
 
 //operador ternario
 
-let num = 10;
-let num2 = 5;
+// let num = 10;
+// let num2 = 5;
 
-//crie uma validação ternaria onde resulte em par ou impar
-let resulado = 10%5 == 0  ? "par" : "impar ";
-console.log("o numero é " + resulado)
+// //crie uma validação ternaria onde resulte em par ou impar
+// let resulado = 10%5 == 0  ? "par" : "impar ";
+// console.log("o numero é " + resulado)
+
+
+// declarando um array 
+
+// let nomes = ["enzo", "murilo", "vitinho"]
+
+// console.log(nomes)
+
+// //imprimir um unico índice
+
+// console.log(nomes[0])
+
+
+//recuperando elementos de lista atráves de função 
+//getElementBy(id,class,tagName) 
+//const itemsDeLista = document.getElementsByTagName("li")
+
+
+// let num1 = [10,20,30]
+// let num2 = [40,50,60,70,80]
+// let num3
+// num3 = [num1,num2]
+
+// apresentando interpolação junto com arrays
+// console.log("valor do array 3:" + num3 )
