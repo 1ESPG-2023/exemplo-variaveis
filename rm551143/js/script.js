@@ -90,16 +90,22 @@ console.log(nomes[1])*/
 // // //apresentando interpolação junto com arrays
 // console.log("valor do array 3 "  + num3)
 
+// const itensDeLista = [...document.getElementsByTagName("li")]
+
+// //const objArray = [...itensDeLista]
+
+// //console.log(itensDeLista[0].innerHTML)
+// //console.log(objArray)
+// //LOOP forEach
+// itensDeLista.forEach( item =>{
+
+//     console.log(`ITEM DA LISTA :${item.textContent}`)
+//     //console.log(itensDeLista[0].textContent)
+// })
 const itensDeLista = [...document.getElementsByTagName("li")]
-
-//const objArray = [...itensDeLista]
-
-//console.log(itensDeLista[0].innerHTML)
-//console.log(objArray)
-itensDeLista.forEach( item =>{
-
-    console.log(`ITEM DA LISTA :${item.textContent}`)
-    //console.log(itensDeLista[0].textContent)
-})
-
+//Loop for
+for (let index = 0; index < itensDeLista.length; index++) {
+    console.log(`Itens da lista :${itensDeLista[index].textContent}`)
+    
+}
 
