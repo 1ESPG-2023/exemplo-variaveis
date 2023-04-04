@@ -95,14 +95,27 @@ console.log("O número que está sendo manipulado é "+resultado)*/
 // num3=[...num1,...num2]
 // console.log("Valor do array 3 "+num3)//contatenação(?)
 
-const itensDeLista=[...document.getElementsByTagName("li")]//fazer isto poupa algumas declarações
-//const obj1Array=[...itensDeLista]
+// const itensDeLista=[...document.getElementsByTagName("li")]//fazer isto poupa algumas declarações
+// //const obj1Array=[...itensDeLista]
 
-//console.log(itensDeLista[0].innerHTML)
-//console.log(obj1Array)
+// //console.log(itensDeLista[0].innerHTML)
+// //console.log(obj1Array)
 
-itensDeLista.forEach(item=>{ //foreach vai jogando os elementos dentro vai indo->
-  console.log(`ITEM DA LISTA: ${item.textContent}`)//interpolação
-//console.log(itensDeLista[0].textContent)
-})
+// //LOOP FOREACH
+// itensDeLista.forEach(item=>{ //foreach vai jogando os elementos dentro vai indo->
+//   console.log(`ITEM DA LISTA: ${item.textContent}`)//interpolação
+// //console.log(itensDeLista[0].textContent)
+// })
 
+// //LOOP FOR
+// const itensDeLista=[...document.getElementsByTagName("li")]
+// for (let index = 0; index < itensDeLista.length; index++) { //se o indice(index) fot menor que o array      index++ soma 1
+//   console.log(`Itens da lista: ${itensDeLista[index].textContent}`)
+// }
+
+
+//FOR IN
+const itensDeLista=[...document.getElementsByTagName("li")]
+for(const indice in itensDeLista){
+  console.log(`Itens da lista: ${itensDeLista[indice].textContent}`)
+}
