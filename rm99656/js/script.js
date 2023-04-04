@@ -63,12 +63,22 @@
 // let frutas = ["banana", "maçã", "pera"]
 // console.table(frutas) 
 
-//const itemList = document.getElementsByTagName("li")
+// let n = [10,20,30]
+// let n2 = [40,50,60,70,80]
+// let n3
 
-let n = [10,20,30]
-let n2 = [40,50,60,70,80]
-let n3
+// n3 = [n, n2]
 
-n3 = [n, n2]
+// console.log("n3 = ", )
 
-console.log("n3 = ", )
+const itemList = [...document.getElementsByTagName("li")]
+// //const objArray = [...itemList]
+// console.log(objArray)
+// console.log(itemList)
+
+
+itemList.forEach( item => {
+
+console.log(`ITEM DA LISTA: :${item.textContent}`)
+    }
+)
