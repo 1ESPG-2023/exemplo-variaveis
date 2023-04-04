@@ -48,13 +48,40 @@
 // console.table(nome[2])
 //recupernado elementos de lista atraves da funçao 
 //get element by tag name 
-const itemsDeLista = [...document.getElementsByTagName("li")]
-itemsDeLista.forEach(item=>{
-    console.log(`ITEM DA LISTA :${item.textContent}` )
+
+// itemsDeLista.forEach(item=>{
+//     console.log(`ITEM DA LISTA :${item.textContent}` )
    // console.log(itemsDeLista[0].innerHTML)
-})
+// })
+//loop for 
+// const itemsDeLista = [...document.getElementsByTagName("li")]
+// for (let index = 0; index < itemsDeLista.length; index++) {
+//     const element = itemsDeLista[index];
+// console.log(`Items da lista : ${itemsDeLista[index].textContent}`)
+    
+// }
+// FOR OF
+// const itemsDeLista = [...document.getElementsByTagName("li")]
+// for(const item of itemsDeLista){
+//     console.log(`Items da lista : ${item.textContent}`)
+// }
+
+//for in 
+
+const itemsDeLista = [...document.getElementsByTagName("li")]
+for(const indice in itemsDeLista){
+console.log(`Items da lista con ForIN ${itemsDeLista[indice].textContent}`)
+}
+
+
+
+
+
+
+
 
 //console.log(objArray)
+
 
 //realizando a junção de arrays com o operador SPREAD(...)
 // let num1 = [10, 20 , 30,]
