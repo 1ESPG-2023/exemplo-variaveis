@@ -102,10 +102,19 @@ console.log(nomes[1])*/
 //     console.log(`ITEM DA LISTA :${item.textContent}`)
 //     //console.log(itensDeLista[0].textContent)
 // })
-const itensDeLista = [...document.getElementsByTagName("li")]
-//Loop for
-for (let index = 0; index < itensDeLista.length; index++) {
-    console.log(`Itens da lista :${itensDeLista[index].textContent}`)
+// const itensDeLista = [...document.getElementsByTagName("li")]
+// //Loop for
+// for (let index = 0; index < itensDeLista.length; index++) {
+//     console.log(`Itens da lista :${itensDeLista[index].textContent}`)
     
-}
+// }
+// const itensDeLista=[...document.getElementsByTagName("li")]
 
+// for (const item of itensDeLista) {   //pega do itensDeLista e poe no item
+
+//   console.log(`Itens da lista com for of: ${item.textContent}`)
+
+const itensDeLista=[...document.getElementsByTagName("li")]
+for (const indice in itensDeLista) {
+    console.log(`Itens da Lista com ForIN :${itensDeLista[indice].textContent}`)
+}
