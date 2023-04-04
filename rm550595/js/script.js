@@ -81,11 +81,14 @@
 
 //recuperando elementos de lista atraves da função getElementByTagName
 
-const itensdelista = document.getElementsByTagName("li");
+const itensdelista =[...document.getElementsByTagName("li")];
 
-const objtArray = [...itensdelista]
-console.log(itensdelista)
-console.log(objtArray)
+itensdelista.forEach( item =>{
+    console.log(`ITEM DA LISTA :${item.textContent}`)
+    //console.log(itensdelista[0].textContent)
+})
+
+// console.log(objtArray)
 
 
 // itensdelista.
