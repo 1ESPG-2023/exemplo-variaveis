@@ -30,32 +30,31 @@
 // console.log(nome)
 
 //Estrutura de decisão IF / else/ else if
+
 //Operadores lógicos
 //&& = and
 //|| = or
 //! = not
 //!= = not equal
-let nome = null
-console.log(nome)
 
-if (nome !="" && nome != undefined) {
-    console.log("A variável está preenchida!")
-}else if(nome == null){
-    console.log("A variável é null")
-}
-else {
-    console.log("A variável não esta preenchida")
-}
+//Declarando um array
+// let nomes = ["nome1","nome2","nome3"]
 
+// console.log(nomes)
+// console.table(nomes)
 
-//Operador Ternário (?)
+// //Imprimir apenas um item do array
+// console.log(nomes[1])
 
-let num1 = 10;
-let num2 = 5;
+//Recuperando elementos de lista através da função 
+//getElementByTagName
+//const itensDeLista = document.getElementsByTagName("li")
 
-//Crie uma validação onde resulte em valor PAR ou IMPAR!
+let num1 = [10,20,30]
+let num2 = [40,50,60,70,80]
+let num3
 
-let resultado = !(10%5) ? "PAR" : "IMPAR";
-
-console.log("O número que esta sendo manipulado é : " + resultado)
+num3 = [num1,num2]
+//Apresentando interpolação junto com arrays com o operador SPREAD (...)
+console.log("Valor do array 3 " + num3)
 
