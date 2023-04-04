@@ -82,7 +82,7 @@ console.log(nomes[1])
 // função que pega uma coleção de elementos
 
 // recuperando elementos de lista através da função gitelementbytagname
-const itensDeLista = [...document.getElementsByTagName("li")]
+// const itensDeLista = [...document.getElementsByTagName("li")]
 
 // realizando a junção co o operador spread (...)
 // prestenção nesses 3 pontinhos aqui 
@@ -99,12 +99,20 @@ console.log("Valor do array 3 " + num3)
 // const obj1array = [...itensDeLista]
 
 // forEach uma função de callback 
-itensDeLista.forEach( item =>{
+// itensDeLista.forEach( item =>{
     
-    console.log(`ITEM DA LISTA :${item.textContent}`)
-    // console.log(itensDeLista[0].textContent) - interpolação (usar crase)
-})
+//     console.log(`ITEM DA LISTA :${item.textContent}`)
+//     // console.log(itensDeLista[0].textContent) - interpolação (usar crase)
+// })
 
 
 // console.log(obj1array)
 
+const itensDeLista = [...document.getElementsByTagName("li")]
+
+// loop for
+
+for (let index = 0; index < itensDeLista.length; index++) {
+    console.log(`itensDeLista : ${itensDeLista[index].textContent}`);
+    
+}
