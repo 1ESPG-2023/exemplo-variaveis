@@ -47,3 +47,22 @@
 // //crie uma validação ternaria, na qual resulte no valor de par ou impar:
 // let resultado = !(10 % 5) ? "PAR" : "IMPAR"
 // console.log("o numero que está sendo manipulado é : " + resultado)
+ 
+//declarando um array
+// let nomes =["matheus","fernando","joao","eric","rodrigo"];
+// console.log(nomes);
+// console.table(nomes);
+
+// //imprimir apenas um elemento
+// console.log(nomes[0]);
+
+//recuperando elementos de lista atraves da fução getElementsByTagName
+//const itensDeLista = document.getElementsByTagName("li");
+
+let num1 = [10,20,30];
+let num2 = [40,50,60,70,80];
+let num3 
+
+num3 = [num1 , num2];
+//apresentando interpolação junto com arreys
+console.log("valor de array 3: " + num3)
