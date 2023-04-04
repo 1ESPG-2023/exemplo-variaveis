@@ -117,6 +117,9 @@ for (const key in object) {
     }
 }
 
+for(const item of itensDeLista) (
+    console.log {`Itens da lista com for IN : $(itemDeLista[indice].textContent)`}
+
 
 
 
