@@ -43,12 +43,12 @@ console.log("O número que está sendo manipulado é :" + resultado)*/
 //recuperando elementos de lista através da função
 //getElementByTagName
 
- const ItensDeLista = document.getElementsByTagName("li")
-//  const objArray = [...ItensDeLista]
-ItensDeLista.forEach(item =>{
-    console.log(`ITEM DA LISTA : ${item.textContent}`)
+//const ItensDeLista = [...document.getElementsByTagName("li")]
+// //  const objArray = [...ItensDeLista]
+// ItensDeLista.forEach(item =>{
+    // console.log(`ITEM DA LISTA : ${item.textContent}`)
      //console.log(ItensDeLista[0].textContent)
-})
+// })
 
 //  console.log(objArray)
 
@@ -59,3 +59,8 @@ ItensDeLista.forEach(item =>{
 // num3 = [...num1,...num2] 
 // //apresentando interpolação junto com arrays
 // console.log("Valor do Array 3 " + num3)
+const ItensDeLista = [...document.getElementsByTagName("li")]
+//loop for
+for (let index = 0; index < Array.length; index++){
+  console.log(`Itens da lista : ${ItensDeLista[index].textContent}`)
+} 
